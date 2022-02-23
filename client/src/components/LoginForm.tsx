@@ -1,4 +1,5 @@
 import React, {FC, useContext, useState} from 'react';
+import "../styles/LoginForm.css";
 import {Context} from "../index";
 import {observer} from "mobx-react-lite";
 
@@ -9,6 +10,7 @@ const LoginForm: FC = () => {
 
     return (
         <div>
+            <form className="box1" >
             <input
                 onChange={e => setEmail(e.target.value)}
                 value={email}
@@ -21,12 +23,15 @@ const LoginForm: FC = () => {
                 type="password"
                 placeholder='Пароль'
             />
-            <button onClick={() => store.login(email, password)}>
+            <div className="ButtonLogin">
+            <button className='reg' onClick={() => store.login(email, password)}>
                 Логин
             </button>
-            <button onClick={() => store.registration(email, password)}>
+            <button className='reg' onClick={() => store.registration(email, password)}>
                 Регистрация
             </button>
+            </div>
+            </form>
         </div>
     );
 };
