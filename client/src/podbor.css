@@ -1,0 +1,123 @@
+.Zakaz {
+    width: 350px;
+    padding: 0px 40px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+ .group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .group input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  .group input:focus {
+    outline: none;
+  }
+
+  .group label {
+    color: #999;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+
+  /* active state */
+  .group input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: gold;
+  }
+  
+  
+  /* BOTTOM BARS ================================= */
+  .bar {
+    position: relative;
+    display: block;
+    width: 320px;
+  }
+  
+  .bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: gold;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .bar:before {
+    left: 50%;
+  }
+  .bar:after {
+    right: 50%;
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before,
+  input:focus ~ .bar:after {
+    width: 50%;
+  }
+  .btn_fourth{
+    font-family:"Roboto" ;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid gold;
+    border-radius: 0.6em;
+    color: gold;
+    cursor: pointer;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 5px;
+    padding: 1.1em 5.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .btn_fourth:hover, .btn_fourth:focus {
+    color: rgb(100, 100, 100);
+    outline: 0;
+  }
+  .btn_fourth {
+    border-color: gold;
+    color: rgb(100, 100, 100);
+    background-image: -webkit-linear-gradient(45deg, gold 50%, transparent 50%);
+    background-image: linear-gradient(45deg, gold 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 500ms ease-in-out;
+  }
+  .btn_fourth:hover {
+    background-position: 0;
+  }

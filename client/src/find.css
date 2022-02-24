@@ -1,0 +1,137 @@
+
+.find{
+    width: 90%;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    box-shadow: 0 0 7px black;
+    border-radius: 10px;
+
+}
+.main1{
+    display: inline-flex;
+}
+
+.City{
+    margin-right: 10px;
+}
+.City input{
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;
+    font-size: 16.5px;
+
+}
+.City input::-webkit-input-placeholder {
+    font-size: 14px;
+    }
+.FirstCol{
+    padding-right: 10px;
+}
+.FirstCol input{
+    margin-bottom: 10px;
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;;
+    font-size: 16.5px;
+}
+
+.FirstCol input::-webkit-input-placeholder {
+    font-size: 14px;
+    }
+.FirstCol select{
+    margin-bottom: 10px;
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;;
+    font-size: 16.5px;
+    width: 209px;
+}
+    
+.FirstCol select::-webkit-input-placeholder {
+    font-size: 14px;
+}
+.MiddleCol{
+    display: block;
+    padding-right: 10px;
+}
+.MiddleCol input{
+    margin-bottom: 10px;
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;
+    font-size: 16.5px;
+}
+.MiddleCol select{
+    margin-bottom: 10px;
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;;
+    font-size: 16.5px;
+    width: 209px;
+}
+    
+.MiddleCol select::-webkit-input-placeholder {
+    font-size: 14px;
+}
+.MiddleCol input::-webkit-input-placeholder {
+    font-size: 14px;
+    }
+.LastCol{
+    display: block;
+    padding-right: 10px;
+}
+.LastCol input{
+    margin-bottom: 10px;
+    border: 1.8px solid #A1FFC1;
+    border-radius: 5px;
+    font-size: 16.5px;
+}
+.LastCol input::-webkit-input-placeholder {
+    font-size: 14px;
+    }
+.Price input{
+    width: 94px;    
+}
+
+.Power{
+    display: flex;
+}
+.Power input{
+    width: 94px;
+}
+.Years {
+    display: flex;     
+}
+.Years input{
+    width: 94px;
+}
+.buttons button{
+    float: right;   
+}
+.buttons button.show{
+    width: 150px;
+    height: 30px;
+    border: 0;
+    background: #A1FFC1;
+    display: block;
+    text-align: center;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttons button.clear{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    display: block;
+    text-align: center;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+  

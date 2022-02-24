@@ -6,7 +6,8 @@ import {IUser} from "./models/IUser";
 import UserService from "./services/UserService";
 import "./styles/Exit.css"
 
-const App: FC = () => {
+const Registration: FC = () => {
+    
     const {store} = useContext(Context);
     const [users, setUsers] = useState<IUser[]>([]);
 
@@ -51,4 +52,4 @@ const App: FC = () => {
     );
 };
 
-export default observer(App);
+export default observer(Registration);

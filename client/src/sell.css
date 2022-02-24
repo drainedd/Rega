@@ -1,0 +1,82 @@
+.photo {
+  clear:both; 
+  text-align:left;
+  line-height:25px;
+  
+}
+.field {
+    clear:both; 
+    text-align:right;
+    line-height:25px;
+    
+}
+.field select {
+  width: 177px;
+  
+}
+label {
+    float:left;
+    padding-right:10px;
+}
+
+.sell {
+    position: relative;
+    float:left;
+    left: 50px;
+    font-family:"Roboto";
+}
+.history-radio {
+    width: max-content;
+    padding-right: 2px;
+    
+  }
+  .owners-count input {
+    display: inline-block;
+  }
+  .desc-area {
+    width: 100%;
+    resize: none;
+  }
+  
+  .btn_fourth{
+    font-family:"Roboto" ;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #A1FFC1;
+    border-radius: 0.6em;
+    color: #A1FFC1;
+    cursor: pointer;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 12px 100px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .btn_fourth:hover, .btn_fourth:focus {
+    color: rgb(65, 65, 65);
+    outline: 0;
+  }
+  .btn_fourth {
+    border-color: #A1FFC1;
+    color: rgb(65, 65, 65);
+    background-image: -webkit-linear-gradient(45deg, #A1FFC1 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #A1FFC1 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 500ms ease-in-out;
+  }
+  .btn_fourth:hover {
+    background-position: 0;
+  }

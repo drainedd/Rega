@@ -70,3 +70,15 @@
     background: gold;
     
 }
+.alesha {
+    width: 350px;
+    padding: 0px 40px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    border-radius: 15px;
+    z-index: 2;
+}

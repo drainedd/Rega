@@ -10,6 +10,7 @@ const LoginForm: FC = () => {
 
     return (
         <div>
+            <form className='alesha' action=''>
             <div className='box1'>
             <input
                 onChange={e => setEmail(e.target.value)}
@@ -32,6 +33,7 @@ const LoginForm: FC = () => {
             </button>
             </div>
             </div>
+            </form>
         </div>
     );
 };
