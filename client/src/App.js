@@ -17,7 +17,6 @@ import Entering from './Entering.tsx';
 export default function App() {
   return (
     <Router>
-  
       <section>
         <div className="logo-box">
         <h2 class="logo">
@@ -55,6 +54,9 @@ export default function App() {
         </section>
         
         <Switch>
+        <Route path="/Entering">
+            <Entering />
+          </Route>
         <Route path="/sell">
             <SellAuto />
           </Route>
@@ -66,9 +68,6 @@ export default function App() {
           </Route>
           <Route path="/">
             <Home />
-          </Route>
-          <Route path="/Entering">
-            <Entering />
           </Route>
         </Switch>
     </Router>
